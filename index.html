@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Engagement Exam Practice</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-elements">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+    
+    <main class="app-container">
+        <header class="app-header">
+            <h1>Account Engagement Practice Exams</h1>
+            <p>Select an exam below to begin testing your knowledge.</p>
+            
+            <div class="exam-selector-container">
+                <select id="exam-selector" aria-label="Select an exam">
+                    <option value="" disabled selected>-- Choose an Exam --</option>
+                </select>
+            </div>
+        </header>
+
+        <section id="quiz-container" class="quiz-container hidden">
+            <!-- Questions will be dynamically rendered here -->
+        </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
